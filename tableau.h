@@ -1,5 +1,5 @@
 typedef struct{
-	void * tableau[];
+	void * data;
 	int taille;
 	int tmemoire;
 }TABLEAU;
