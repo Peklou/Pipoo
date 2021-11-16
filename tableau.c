@@ -15,6 +15,7 @@ void  afficher(T t,int (*p)(void *)) {
 		ptr += t.tmemoire;
 		(*p)(ptr));
 	}
+<<<<<<< HEAD
 }
  
 void  alleatoire(T t,void (*p)(void *)) {
@@ -26,6 +27,10 @@ void  alleatoire(T t,void (*p)(void *)) {
 }
 
 
+=======
+
+}
+>>>>>>> f842f0128921ede2445e69028e4b921ed9c0cf0a
 void detruire_tout(TABLEAU t){
     free(t.data);
 }
