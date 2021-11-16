@@ -5,17 +5,17 @@ struct test {
     long long int b;
     long long int c;
 };
-
-/* Affiche une variable de type struct test 
- * Cette fonction doit ensuite être utilisée dans la fonction afficher() 
+typedef struct tableau* T;
+/* Affiche une variable de type struct test
+ * Cette fonction doit ensuite être utilisée dans la fonction afficher()
  * pour afficher tous les éléments du tableau générique
  */
 void afficher_structure(/* A COMPLETER */) {
     /* A COMPLETER */
 }
 
-/* Crée une variable de type struct test en mémoire. 
- * Cette fonction doit ensuite être utilisée dans la fonction aleatoire() 
+/* Crée une variable de type struct test en mémoire.
+ * Cette fonction doit ensuite être utilisée dans la fonction aleatoire()
  * pour générer un tableau contenant des éléments de type struct test
  */
 /* A COMPLETER */ aleatoire_structure(/* A COMPLETER */) {
