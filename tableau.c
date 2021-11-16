@@ -14,4 +14,12 @@ void  afficher(TABLEAU t) {
 		ptr += t.tmemoire;
 		printf("%d",*(int *)ptr)
 	}
+
+}
+void detruire_tout(TABLEAU t){
+    free(t.data);
+}
+void trier(TABLEAU T,int (*compare)){
+qsort(t.data,t.taille,t.tmemoire,&compare);
+
 }
